@@ -1,0 +1,53 @@
+.termek{
+    border: 2px solid white;
+    width: 270px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    text-align: center;
+    padding-bottom: 80px;
+    margin-right: 50px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+img{
+    margin: 20px;
+    
+}
+
+.delllogo{
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+button{
+    border: 2px solid black; 
+    background-color: blue;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+}
+
+
+body{
+
+    text-align: center;
+}
+a{
+    font-size: xx-large;
+    position: sticky;
+    margin-left: 15px;
+    color: white;
+}
+
+.nevar{
+    text-align: center;
+}
+
+#osszestermek{
+    text-align: center;
+}

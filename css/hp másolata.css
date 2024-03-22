@@ -1,0 +1,31 @@
+.termék-ablak{
+    background-color: transparent;
+    backdrop-filter: blur(60px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(20% - 20px); /* 20% width for each product card with margins */
+    margin-bottom: 50px;
+    margin-left: 45px;
+    margin-right: 45px;
+    text-align: center;
+    display: inline-block
+}
+
+.termék-kép{
+   width: calc(100% - 20px); /* 100% width for each product card with margins */
+   height: calc(100% - 20px); /* 100% height for each product card with margins */
+}
+
+
+.vásárlás{
+    background-color: blue;
+}
+
+button{
+    border: 2px solid black;
+    background-color: rgb(1,82,148);
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+}
