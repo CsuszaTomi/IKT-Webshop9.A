@@ -289,6 +289,12 @@ body{
     margin-left: 20px; 
     margin-right: 20px; 
 }
-.container-xl {
-    max-width: 3500px; /* Vagy adj meg egy másik értéket, ami megfelelő számodra */
+.tavolsag{
+    padding-right: 150px;
+    padding-left: 150px;
 }
+/*
+.container-xl {
+    max-width: 1920px; 
+} 
+*/
