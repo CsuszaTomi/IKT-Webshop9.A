@@ -216,21 +216,18 @@ div.scrollmenu {
     margin-left: 20px;
     
  }
-.termék-kép {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
 .vásárlás {
-    background-color: #4CAF50;
+    background-color: rgb(167, 24, 24);
     color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 5px;
     margin-top: 10px;
     cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: 0.5px solid black;
 }
 #cim{
     text-align: center;
@@ -298,3 +295,25 @@ body{
     max-width: 1920px; 
 } 
 */
+.termék_ablak{
+    background-color: transparent;
+    backdrop-filter: blur(60px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(260px); /* 20% width for each product card with margins */
+    margin-bottom: 45px;
+    margin-left: 34px;
+    margin-right: 50px;
+    margin-inline-end: 20px;
+    text-align: center;
+    display: inline-block
+}
+
+.termék_kép{
+   width: calc(100% - 20px); /* 100% width for each product card with margins */
+   height: calc(100% - 20px); /* 100% height for each product card with margins */
+}
+
+#termekek{
+    text-align: center;
+}
