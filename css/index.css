@@ -1,4 +1,19 @@
+#carouselExampleIndicators {
+    margin-top: 20px; 
+}
 
+.container-slideshow {
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item .kép{
+    background-size: cover;
+    background-position: center;
+    width: 1240px;
+    height: 300px;
+}
 .visszagomb {
     border: 1px solid #ccc;
     border-radius: 5px;
