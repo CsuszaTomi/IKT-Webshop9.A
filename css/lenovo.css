@@ -1,17 +1,4 @@
-.visszagomb {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 60px;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-    background: transparent;
-    backdrop-filter: blur(60px);
-    color: white;
-    position: fixed;
-    font-size: large;
-}
+
 body{
     overflow-x: hidden;
     margin: auto;
@@ -229,21 +216,22 @@ div.scrollmenu {
     margin-left: 20px;
     
  }
+
  .termékek {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
 }
 .termék-ablak {
+    display: inline-block;
+    text-align: center;
     border: 1px solid #ccc;
     border-radius: 10px;
-    padding: 10px;
-    width: calc(25% - 20px); /* 25% width for each product card with margins */
-    margin-bottom: 20px;
     text-align: center;
     background: transparent;
     backdrop-filter: blur(60px);
-    margin: 15px;
+    margin: 30px;
+
 }
 .termék-kép {
     max-width: 100%;
@@ -262,6 +250,7 @@ div.scrollmenu {
     border-radius: 10px;
     margin-top: 10px;
     cursor: pointer; 
+    font-size: medium;
 }
 #vasarlas:hover{
     text-decoration: none;
